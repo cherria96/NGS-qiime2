@@ -122,6 +122,7 @@ Output will be saved in:
 * `.qzv` → visualization file (open at QIIME2 View)
 
 **SILVA Database**
+Download database from [here](https://docs.qiime2.org/2024.10/data-resources/)
 * Currently uses SILVA_DB_138_99
 * If updated, retrain the Naïve Bayes classifier:
   ```bash
