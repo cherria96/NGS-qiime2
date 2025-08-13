@@ -10,7 +10,7 @@ It includes preprocessing, denoising, taxonomy assignment, diversity analysis, a
 - **conda** (Anaconda or Miniconda; tested on Anaconda 2022.10)
 - **QIIME2** (tested on version `2023.2`)
 - Python 3
-- SILVA Database (`SILVA_DB_138_99`)
+- SILVA Database (`SILVA_DB_138_99`) (Download from [here](https://docs.qiime2.org/2024.10/data-resources/))
 - Internet access for QIIME2 visualization (`https://view.qiime2.org/`)
 
 ---
@@ -122,7 +122,6 @@ Output will be saved in:
 * `.qzv` → visualization file (open at QIIME2 View)
 
 **SILVA Database**
-* Download database from [here](https://docs.qiime2.org/2024.10/data-resources/)
 * Currently uses SILVA_DB_138_99
 * If updated, retrain the Naïve Bayes classifier:
   ```bash
