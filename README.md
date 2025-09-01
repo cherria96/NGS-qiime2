@@ -117,6 +117,7 @@ Output will be saved in:
 ```
 ## 🔹 8. NGS taxanomy formatting (Optional)
 If you want to change outputfile from procedure 7 to rank formats:
+
 Run:
 ```bash
 python taxa_organized_organizer.py
