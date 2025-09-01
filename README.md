@@ -115,6 +115,21 @@ Output will be saved in:
 ```bash
 ../taxa-organized/
 ```
+## 🔹 8. NGS taxanomy formatting (Optional)
+If you want to change outputfile from procedure 7 to rank formats:
+Run:
+```bash
+python taxa_organized_organizer.py
+```
+Inputs: 
+1. CSV file (outputfile from procedure 7)
+2. Metadata file
+3. Output Excel filename (e.g., output.xlsx)
+
+Output will be saved in:
+```bash
+../ngs-organized/
+```
 ---
 ## 📚 Notes & Tips
 **QIIME2 File Types**
