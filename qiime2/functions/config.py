@@ -1,6 +1,13 @@
-EXCEL_IN = "ngs/keco_bac.xlsx"
-METADATA = "ngs/sample-metadata-bac.tsv"
-EXCEL_OUT = "ngs/keco_bac_reorganizedd.xlsx"
+from tkinter import filedialog
+import os
+
+
+EXCEL_IN = filedialog.askopenfilename(title = "Open taxa organized file")
+METADATA = filedialog.askopenfilename(title = "Open metadata file .tsv")
+if not os.path.exists('ngs-organized'):
+    os.makedirs('ngs-organized')
+
+EXCEL_OUT = 'ngs-organized/' + input("file name (add .xlsx): ")
 
 RANK_COLOR_RGB = {
     "1": "black",
