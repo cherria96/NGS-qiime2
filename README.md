@@ -123,7 +123,7 @@ Run:
 python taxa_organized_organizer.py
 ```
 Inputs: 
-1. CSV file (outputfile from procedure 7)
+1. excel file (outputfile from procedure 7)
 2. Metadata file
 3. Output Excel filename (e.g., output.xlsx)
 
