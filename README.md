@@ -146,6 +146,9 @@ Output will be saved in:
 ⚠️ This step is time- and memory-intensive.
 
 * Or download **pre-trained classifier** from [here](https://library.qiime2.org/data-resources#naive-bayes-classifiers)
+  ```bash
+  wget https://data.qiime2.org/classifiers/sklearn-1.4.2/silva/silva-138-99-nb-classifier.qza
+  ```
 
 **Initial Environment Setup**
 For new systems:
