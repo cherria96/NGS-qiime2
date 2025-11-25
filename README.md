@@ -145,6 +145,8 @@ Output will be saved in:
   ```
 ⚠️ This step is time- and memory-intensive.
 
+Or download **pre-trained classifier** from [here](https://library.qiime2.org/data-resources#naive-bayes-classifiers)
+
 **Initial Environment Setup**
 For new systems:
 ```bash
