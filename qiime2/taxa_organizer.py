@@ -11,9 +11,14 @@ import numpy as np
 import os
 
 #CSV file download from 'silva_16S_barplot.qzv' with Taxonomic level 7
-filename = filedialog.askopenfilename(title = "Open taxa file")
-metadata = filedialog.askopenfilename(title = "Open metadata file .tsv")
-table = filedialog.askopenfilename(title = "ASV_table.tsv")
+domain = input("input domain that you want to create file for (ARC / BAC):")
+filename = "../result/"+domain+"/level-7.csv"
+metadata = "../fastq/sample-metadata-"+ domain.lower() +".tsv"
+table = "../result/"+domain+"/metadata.tsv"
+
+#filename = filedialog.askopenfilename(title = "Open taxa file")
+#metadata = filedialog.askopenfilename(title = "Open metadata file .tsv")
+#table = filedialog.askopenfilename(title = "ASV_table.tsv")
 
 name= 'sampleid'
 
